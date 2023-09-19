@@ -1,0 +1,105 @@
+/* Reset básico para remover margens e paddings padrões */
+body, h1, h2, p, ul, li, form, label, textarea, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Definindo uma fonte padrão */
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #7c0f0f; /* Cor de fundo vermelha */
+    text-align: center; /* Centralizando o conteúdo */
+    padding: 20px 0; /* Espaçamento interno no topo e na base */
+}
+
+header img {
+    width: 1300px; /* Definindo uma largura fixa para o logo */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
+header h1 {
+    font-size: 5em; /* Tamanho da fonte */
+    color: #ffffff; /* Cor branca para o texto */
+}
+
+/* Estilizando a biografia */
+.bio {
+    color: #fff;
+    padding: 60px; /* Espaçamento interno */
+    background-color: #7c0f0f; /* Cor de fundo vermelho */
+}
+
+/* Estilizando a discografia */
+.discografia {
+    text-align:center;
+    color: #fff;
+    padding: 20px;
+    background-color: #7c0f0f; /* Cor de fundo vermelho */
+    font-size: 1,5em;
+}
+
+.album{
+    width: 400px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 6px;
+    align-items: center;
+    padding: 30px;
+}
+
+.album{
+    transition: 0.5s all;
+}
+
+.album:hover{
+    scale: 1.1;
+}
+
+
+/* Estilizando as datas da turnê */
+.turne {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: #7c0f0f;
+}
+
+.turne ul li {
+    list-style-type: none; /* Removendo os bullets das listas */
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilizando o formulário de contato */
+.contato {
+    padding: 20px;
+    background-color: #7c0f0f;
+    color: #fff;
+}
+
+.contato form {
+    display: flex; /* Usando flexbox para o layout */
+    flex-direction: column; /* Os itens aparecerão em coluna */
+}
+
+.contato label, .contato input, .contato textarea {
+    margin-bottom: 10px; /* Espaçamento abaixo de cada elemento */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #7c0f0f; /* Cor de fundo vermelho */
+    color: #7c0f0f; /* Cor branca para o texto */
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff; /* Links em branco */
+    margin: 0 5px; /* Espaçamento horizontal entre links */
+    text-decoration: none; /* Removendo o sublinhado dos links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhando os links ao passar o mouse */
+}
